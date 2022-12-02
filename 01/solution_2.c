@@ -39,17 +39,6 @@ int main()
 
 		printf("top three: %d %d %d\n", top[0], top[1], top[2]);
 		printf("sum calories: %d\n", top[0] + top[1] + top[2]);
-
-		/*
-		 * incorrect:
-		 * top three: 72017 71144 68735
-		 * sum calories: 211896
-		 *
-		 *
-		 * top three: 72017 71144 69359
-		 * sum caloriess: 212520
-		 */
-
 		fclose(fp);
 		return 0;
 }
